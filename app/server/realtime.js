@@ -75,7 +75,7 @@ var requestRealTimeData = function(err, analytics) {
 
     loop.loop(function(profile) {
         requestRealTimeDataForProfile(analytics, profile)
-    }, 250, 1000);
+    }, 5000, 1000);
 };
 
 var requestRealTimeDataForProfile = function(analytics, profile) {

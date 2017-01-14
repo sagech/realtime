@@ -1,4 +1,4 @@
 node_modules
-config/google.json
-config/*.p12
-config/*.pem
+app/config/google.json
+app/config/*.p12
+app/config/*.pem
